@@ -1,0 +1,42 @@
+.vokemon {
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #4771f3;
+    font-size: 30px;
+}
+
+.page {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e3eafd;
+    width: 90vh;
+    border-radius: 70px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.page a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.page a:hover {
+    background-color: #4771f3;
+    padding: 15px 30px;
+    border-radius: 70px;
+    color: white;
+}
+
+.go {
+    color: #f37b37;
+}
+
+
+
+.putih{
+    color: #4771f3;
+    padding: 20px 47px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <script src="../script/jquery.js"></script>
+    <script src="../script/register.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftcontainer">
+            <div class="logo">
+                <h1><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.5418 14.9999C18.5418 15.9392 18.1687 16.8401 17.5045 17.5043C16.8403 18.1684 15.9395 18.5416 15.0002 18.5416C14.0609 18.5416 13.16 18.1684 12.4958 17.5043C11.8316 16.8401 11.4585 15.9392 11.4585 14.9999C11.4585 14.0606 11.8316 13.1598 12.4958 12.4956C13.16 11.8314 14.0609 11.4583 15.0002 11.4583C15.9395 11.4583 16.8403 11.8314 17.5045 12.4956C18.1687 13.1598 18.5418 14.0606 18.5418 14.9999ZM29.1668 14.9999C29.1668 22.8199 22.8202 29.1666 15.0002 29.1666C7.18016 29.1666 0.833496 22.8199 0.833496 14.9999C0.833496 7.17992 7.18016 0.833252 15.0002 0.833252C22.8202 0.833252 29.1668 7.17992 29.1668 14.9999ZM26.3335 14.9999H20.6668C20.6668 11.8691 18.131 9.33325 15.0002 9.33325C11.8693 9.33325 9.3335 11.8691 9.3335 14.9999H3.66683C3.66683 21.2474 8.75266 26.3333 15.0002 26.3333C21.2477 26.3333 26.3335 21.2474 26.3335 14.9999Z" fill="white"/>
+                    </svg>
+                    VokemonSGo</h1>
+            </div>
+            <div class="links">
+                <a>The newest and the most complete Pokemon Go site at the moment</a>
+            </div>
+            <img src="../assets/register.svg" alt="">
+                
+        </div>
+            
+        <div class="regcontainer">
+            <h1>Register</h1>
+            <div class="boxreg">
+                <label for="name">Name</label>
+                <input type="name" id="name" name="name" placeholder="Input Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Input Email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Input Password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>
+                    <input id="checkbox" type="checkbox" name="agree" value="agree" required> Player must agree with the terms and conditions.
+                </label>
+
+                <form action="./home.html" onsubmit="return register()">
+                    <input type="submit" value="Register" onclick="register()">
+                </form>
+            </div>
+        </div>
+</div>
+</body>
+</html>
